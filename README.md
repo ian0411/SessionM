@@ -1,9 +1,9 @@
 # SessionM
 ***************************************************************************************
 Python3 Installation
-<folder name> = SessionM
-<project name> = user_visits
-<file name> here can be any file that ended with .py extension name
+<<folder name>> = SessionM
+<<project name>> = user_visits
+<<file name>> here can be any file that ended with .py extension name
 ***************************************************************************************
 1. Check Python version:
    python3 -version
@@ -23,41 +23,41 @@ Python3 Installation
 7. Install virtual environment:
    sudo apt-get install -y python3-venv
 8. Create a new virtualenv (go to the folder that you want to use first):
-   mkdir <folder name>
-   cd <folder name>
-   python3 -m venv <project name>
+   mkdir <<folder name>>
+   cd <<folder name>>
+   python3 -m venv <<project name>>
 9. Start the virtualenv:
-   source <project name>/bin/activate
+   source <<project name>>/bin/activate
 10. Stop the virtualenv:
    deactivate
 11. View the folder:
-   ls <project name>
+   ls <<project name>>
 12. Open command-line text editor (nano) and create a new file
-   nano <file name>.py
+   nano <<file name>>.py
 13. Run Python:
-   python3 <file name>.py
+   python3 <<file name>>.py
 
 
 
 ***************************************************************************************
 PostgreSQL Installation
-<user name> = ian
-<database name> = user_visits
-<table name> = user_visits
+<<user name>> = ian
+<<database name>> = user_visits
+<<table name>> = user_visits
 ***************************************************************************************
 1. Install PostgreSQL:
    sudo apt-get install postgresql libpq-dev postgresql-client postgresql-client-common
 2. Go to new postgres account (this will become postgres command line):
    sudo -i -u postgres
 3. Create a new user name:
-   createuser <user name> -P --interactive
+   createuser <<user name>> -P --interactive
 4. Create a new database:
-   createdb <database name>
+   createdb <<database name>>
 5. Connect to the database:
-   psql <database name>
+   psql <<database name>>
 6. Display table list in the database:
    \dt
-7. Display table (like 'SELECT * FROM <table name> 'query statement):
+7. Display table (like 'SELECT * FROM <<table name>> 'query statement):
    \dd
 8. Exit postgres account:
    Ctrl + D
